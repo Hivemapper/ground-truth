@@ -1,23 +1,29 @@
 # Hivemapper Ground Truth Dataset
 
 
+![Hivemapper - Ground Truth - Icon - v2 - Color - 200px](https://user-images.githubusercontent.com/3408732/235263612-f9c1d7bc-8ef8-4043-abce-b2870dc3b7cb.png)
+
 ### What is Hivemapper Ground Truth?
-Ground Truth is a project to carefully and accurately build a highly precise dataset of street level objects -- speed limit signs, traffic lights, stop sings, and so forth. The positional accuracy of each object is equal to or better than 50 cm. 
+Ground Truth is a project to carefully and accurately build a highly precise dataset of street level objects -- speed limit signs, traffic lights, stop sings, and so forth.  There are three criteria
+* Comprehensive: includes all the signs in the given area for each object class
+* Precision: the objects are correctly labeled e.g. 35 mph speed limit sign 
+* Precise positional accuracy: the positional accuracy for each object is equal to or better than 50 cm. 
 
 ### The purpose of Ground Truth
 
 Hivemapper's Map AI automatically produces object detections - this is a speed limit sign of 25 mph located at these coordinates.  In order to assess the performance of Hivemapper's object detections we need a highly accurate and comprehensive reference dataset to compare against.  We built Ground Truth to serve as this reference dataset.
 
-### How did we build Ground Truth
+### How we build Ground Truth
 
 **1. Selected five object classes:**
 
-* Stop Signs
-* Traffic Lights
-* Speed Limit Signs
-* Turn Restriction Signs
-* Highway Exit Signs
-
+| Object Class | Description |
+| --- | --- |
+| Stop Signs | A good old stop sign |
+| Speed Limit Signs | Both enforced speed limit signs (white signs) and advisory speed limits (yellow signs)|
+| Turn Restriction Signs | No left turn, no right turn, and no U-turn signs |
+| Highway Exit Signs | Either an exit for a street or another highway|
+| Traffic Signal Lights | Only traffic signal lights with red, yellow, and green lights|
 
 **2. Selected three different areas across the San Francisco Bay Area**
 
@@ -40,6 +46,12 @@ Hivemapper built a high precision GNSS surveying kit as seen below to collect th
 ![High Precision GNSS Surveying Kit](https://user-images.githubusercontent.com/3408732/235258976-2a946c0e-120b-4695-b656-95fe8a9b875f.jpg)
 
 
+### Download dataset
+
+Once the dataset is complete it will be added here and available for public use.
+
+
 ### Can I use this data for my project?
 
 Yes, this is an open source dataset that Hivemapper is making available as a public good.  If you like to add or suggest a modification please do so by opening a GitHub Issue.
+
