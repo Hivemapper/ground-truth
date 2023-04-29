@@ -40,7 +40,7 @@ Ground Truth data was collected across 2-3 days in these three areas:
 
 A team of two surveyors manually collected field data for these five object classes e.g. speed limit sign of 25 mph at 2359 Oakmont Dr, San Bruno, CA 94066 by driving up and down the roads across these different areas in (2) above.  The team of surveyors then cross-referenced their manually collected data with Hivemapper Dashcam imagery from those same areas to verify that all objects manually collected were comprehensive and accurately labeled.
 
-Hivemapper built a high precision GNSS surveying kit as seen below to collect the positional coordinates of the objects -- speed limit signs, stop signs, etc. The GNSS surveying kit provides positional accuracy of 50cm or better.  The positional coordinates for the objects were captured by the team of surveyors placing the surveying kit directly next to the object (speed limit sign) and recording the GNSS coordinates provided.
+Hivemapper built a high precision GNSS surveying kit using the [U-Blox ZED-F9P](https://cdn.sparkfun.com/assets/learn_tutorials/8/5/6/ZED-F9P_Product_Summary.pdf) as seen below to collect the positional coordinates of the objects -- speed limit signs, stop signs, etc. The GNSS surveying kit provides positional accuracy of 50cm or better.  The positional coordinates for the objects were captured by the team of surveyors placing the surveying kit directly next to the object (speed limit sign) and recording the GNSS coordinates provided.
 
 
 ![High Precision GNSS Surveying Kit](https://user-images.githubusercontent.com/3408732/235258976-2a946c0e-120b-4695-b656-95fe8a9b875f.jpg)
