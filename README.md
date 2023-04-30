@@ -33,7 +33,7 @@ Ground Truth data was collected across 2-3 days in these three areas:
 * Urban area in San Francisco
 * Suburban residential area south of San Francisco
 
-![aor-sfbay](https://user-images.githubusercontent.com/3408732/235260289-866b59e1-7662-475c-922e-03665edceb27.jpg)
+![map-ground-truth](https://user-images.githubusercontent.com/3408732/235332848-4612f750-ef1c-413c-8895-09c66949a0fd.png)
 
 
 **3. Manual field surveys**
@@ -43,7 +43,7 @@ A team of two surveyors manually collected field data for these five object clas
 Hivemapper built a high precision GNSS surveying kit using the [U-Blox ZED-F9P](https://cdn.sparkfun.com/assets/learn_tutorials/8/5/6/ZED-F9P_Product_Summary.pdf) multi-band GNSS module with integrated multi-band RTK technology as seen below to collect the positional coordinates of the objects -- speed limit signs, stop signs, etc. The GNSS surveying kit provides positional accuracy of 50cm or better.  The positional coordinates for the objects were captured by the team of surveyors placing the surveying kit directly next to the object (speed limit sign) and recording the GNSS coordinates provided.
 
 
-![High Precision GNSS Surveying Kit](https://user-images.githubusercontent.com/3408732/235258976-2a946c0e-120b-4695-b656-95fe8a9b875f.jpg)
+![cm-survey-kit](https://user-images.githubusercontent.com/3408732/235332965-f7b3d513-08c8-44a1-b23f-4f4eda5f3a6c.jpg)
 
 
 ### Download dataset
